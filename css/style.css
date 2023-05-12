@@ -1,0 +1,49 @@
+main {
+    width: 980px;
+    margin: 20px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav a {
+    margin: auto 10px;
+    text-decoration: none;
+    color: #020202;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+.grid > div {
+    height: 100px;
+    width: 220px;
+    border: black 1px solid;
+    background-color: gray;
+}
+
+hr {
+    margin: 20px auto;
+}
+
+.tags {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tags a {
+    margin: auto 10px;
+}
